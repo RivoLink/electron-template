@@ -19,6 +19,7 @@
         "lint:fix": "eslint --fix ."
     },
     "build": {
+        "publish": false,
         "appId": "mg.rivolink.electron.template",
         "files": [
             "dist/**/*",

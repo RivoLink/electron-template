@@ -201,6 +201,7 @@ This project is configured for Linux-only packaging. Update your electron-builde
 
 ```json
 "build": {
+    "publish": false,
     "appId": "mg.rivolink.electron.template",
     "files": [
         "dist/**/*",
