@@ -15,7 +15,8 @@
         "build:vite": "vite build",
         "build:electron": "npm run build:electron:linux",
         "build:electron:linux": "electron-builder --linux",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix ."
     },
     "build": {
         "appId": "mg.rivolink.electron.template",
